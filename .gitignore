@@ -1,5 +1,3 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 .env
-edtech/edtech/data/*
-!edtech/edtech/data
