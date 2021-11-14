@@ -197,13 +197,13 @@ def main(state, **kwargs):
     # select_sentence(result)
 
 def authentication():
-    # NAME = os.getenv('NAME')
-    # USERNAME = os.getenv('USERNAME')
-    # PASSWORD = os.getenv('PASSWORD')
+    NAME = os.getenv('NAME')
+    USERNAME = os.getenv('USERNAME')
+    PASSWORD = os.getenv('PASSWORD')
 
-    NAME = st.secrets["NAME"]
-    USERNAME = st.secrets["USERNAME"]
-    PASSWORD = st.secrets["PASSWORD"]
+    # NAME = st.secrets["NAME"]
+    # USERNAME = st.secrets["USERNAME"]
+    # PASSWORD = st.secrets["PASSWORD"]
 
     state = _get_state()
 
