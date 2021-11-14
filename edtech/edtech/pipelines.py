@@ -42,7 +42,7 @@ class EdtechPipeline:
         clean_sentence = remove_html_tags(sentence)
         clean_sentence = clean_sentence.strip()
         clean_sentence = clean_sentence.replace(" ", "")
-        match_index = re.search('[._,，、:\)）]',clean_sentence)
+        match_index = re.search('[._,，、:\)\）]',clean_sentence)
         if match_index:
             number_sep_index,_ = match_index.span()
         else:
