@@ -2,3 +2,4 @@
 __pycache__/
 .env
 edtech/edtech/data/*
+!edtech/edtech/data
