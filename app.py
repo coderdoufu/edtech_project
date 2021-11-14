@@ -50,6 +50,9 @@ def select_sentence(results, selected_sentences, refresh_sentence_options):
     return selected_sentences
 
 def main(state, **kwargs):
+    data_folder = 'edtech/edtech/data'
+    if not os.path.exists(data_folder):
+        os.makedirs(data_folder)
     output_file = 'edtech/edtech/data/cn_sentences.json'
 
     # sb_lang = kwargs.get("sb_lang",st.sidebar.empty())
